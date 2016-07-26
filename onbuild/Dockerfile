@@ -1,4 +1,4 @@
-FROM zhaoyao91/meteord:base
+FROM zhaoyao91/meteord:base_1.3
 MAINTAINER MeteorHacks Pvt Ltd.
 
 ONBUILD COPY ./ /app
