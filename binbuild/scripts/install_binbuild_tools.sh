@@ -3,9 +3,11 @@ set -e
 apt-get -y install build-essential libssl-dev git python
 
 npm i -g npm
-echo npm -v
+npm -v
 
 npm install -g node-gyp
+which node-gyp
+
 # pre-install node source code for faster building
 node-gyp install ${NODE_VERSION}
 
